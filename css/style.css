@@ -1,0 +1,44 @@
+ /* 
+    Root
+    Header
+    Main
+    Info
+    Dipform
+    Pro
+    Extrapro
+    Competences
+    Footer
+  */
+ 
+ :root {
+    --color-text: #3C6CA8;
+    --color-trait: #786CFA;
+} 
+
+.conteneur {
+    margin: 0 50px 50px 50px;
+    color: var(--color-text);
+}
+
+/* Element header centrer */
+
+h1, .scearch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.dipform {
+    margin-left: 50px;
+    line-height: 0.5;
+}
+/* .atouts {
+    
+} */
+  
